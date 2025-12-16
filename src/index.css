@@ -1,1 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+```
+
+4. Click **"Commit changes"** → **"Commit changes"**
+
+---
+
+**Create src/App.jsx**
+
+1. Click **"Add file"** → **"Create new file"**
+2. Name it: `src/App.jsx`
+3. **Copy the ENTIRE code from the artifact above** (the localStorage version - it's in the gray box labeled "Inventory App - localStorage Version")
+4. Click **"Commit changes"** → **"Commit changes"**
+
+---
+
+## Step 4: Deploy to Vercel
+
+Now let's connect this to Vercel:
+
+1. **Go to Vercel**: https://vercel.com/signup
+2. Click **"Continue with GitHub"**
+3. Authorize Vercel to access your GitHub
+4. Click **"Add New..."** → **"Project"**
+5. You'll see your `inventory-app` repository - click **"Import"**
+6. Vercel will auto-detect everything. Don't change anything!
+7. Click **"Deploy"**
+
+🎉 **Done!** 
+
+In 2-3 minutes you'll get your live URL like:
+`https://inventory-app-abc123.vercel.app`
+
+---
+
+## Summary of What You Created:
+
+Your GitHub repository will have:
+```
+inventory-app/
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
